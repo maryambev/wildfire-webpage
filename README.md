@@ -1,5 +1,9 @@
 # Free React / Next.js landing page template
 
+# Wildfire Visualization Website
+
+This website visualizes wildfire data in the US using bar graphs, line graphs, and maps.
+
 ![Open React / Next.js template preview](https://user-images.githubusercontent.com/2683512/231426532-c71f4291-4813-401b-a569-ada47fe13efa.png)
 
 **Open** is a **free React / Next.js landing page template built with Tailwind CSS** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
@@ -88,3 +92,4 @@ We're an Italian developer/designer duo creating high-quality design/code resour
 ## Stay in the loop
 
 If you would like to know when we release new resources, you can follow us on [Twitter](https://twitter.com/Cruip_com), or you can subscribe to our monthly [newsletter](https://cruip.com/#subscribe).
+
