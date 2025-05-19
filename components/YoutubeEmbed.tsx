@@ -1,17 +1,17 @@
-'use client'
+'use client';
 import React from 'react';
 
-const YoutubeEmbed = () => {
+export default function YoutubeEmbed() {
   return (
-    <iframe
-      width="700" height="415"
-      src="https://www.youtube.com/embed/5hghT1W33cY?si=ZmmR-2Ndg7rbOsVo"
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      style={{ display: 'block', margin: 'auto', marginTop: '-130px', marginBottom: '100px' }}
-      allowFullScreen
-    />
+    <div className="video-responsive" style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+      <iframe
+        src="https://www.youtube.com/embed/5hghT1W33cY?si=ZmmR-2Ndg7rbOsVo"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        title="Wildfire Awareness Video"
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+      ></iframe>
+    </div>
   );
-};
-
-export default YoutubeEmbed;
+}
