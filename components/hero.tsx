@@ -1,5 +1,4 @@
 import React from 'react';
-import YoutubeEmbed from './YoutubeEmbed';
 
 
 export default function Hero() {
@@ -34,7 +33,7 @@ export default function Hero() {
         <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/flashcards">Learn more</a>
       </div>
       <div data-aos="fade-up" data-aos-delay="600">
-        <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/simulation">Simulation</a>
+        <a className="btn text-white bg-red-500 hover:bg-red-700 w-full sm:w-auto sm:ml-4" href="/simulation">Simulation</a>
       </div>
       <div data-aos="fade-up" data-aos-delay="600">
         <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="/data_visualization">Data Visualization</a>
@@ -42,11 +41,6 @@ export default function Hero() {
       <div data-aos="fade-up" data-aos-delay="400">
         <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="/map">Map</a>
       </div>
-    </div>
-
-    {/* YouTube Video Below Menu */}
-    <div className="mt-8">
-      <YoutubeEmbed />
     </div>
   </div>
 </div>

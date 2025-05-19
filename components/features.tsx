@@ -8,20 +8,18 @@ import FeatImage01 from '@/public/images/california_fire.png'
 export default function Features() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+      <div className="max-w-6xl mx-auto px-2 sm:px-4">
+      <div className="py-0">
 
           {/* Section header with YouTube video */}
-          <div>
             <Container>
               <YoutubeEmbed />
             </Container>
             <div className="mx-auto text-center pb-12 md:pb-20">
-              <h2 className="h2 mb-4">Wildfires are becoming more prevalent around the world.</h2>
+              <h2 className="h2 mb-4 mt-4">Wildfires are becoming more prevalent around the world.</h2>
               <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
                 According to data provided by the National Park Service, humans cause about 85 percent of all wildfires yearly in the United States.
               </p>
-            </div>
           </div>
 
           {/* Graphs and description */}
